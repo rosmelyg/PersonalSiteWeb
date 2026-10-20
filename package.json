@@ -1,7 +1,7 @@
 {
   "name": "sitepersonalweb",
   "version": "1.0.0",
-  "description": "",
+  "description": "Aplicacion web personal con Node.js",
   "homepage": "https://github.com/rosmelyg/PersonalSiteWeb#readme",
   "bugs": {
     "url": "https://github.com/rosmelyg/PersonalSiteWeb/issues"
@@ -12,9 +12,10 @@
   },
   "license": "ISC",
   "author": "Rosmely Gómez",
-  "type": "commonjs",
+  "type": "module",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
